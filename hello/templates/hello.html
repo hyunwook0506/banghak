@@ -1,0 +1,37 @@
+
+
+{% extends 'base.html' %}
+ {% block content %}
+
+<style>
+    
+    .container{
+        background-color:#c7ffc4;
+        border-style:outset;
+        border-color:#98ffff;
+    }
+
+</style>
+
+<div class="container">
+
+<span  id= "mountain_review">
+{% for i in newthing.all %}
+
+ 제목 : {{ i.title }}
+ <br>
+ 시간 : {{ i.pubdate }}
+ <br>
+ 내용 : {{ i.body }}
+<br>
+ 조회수: {{i.postit}}
+ <br>
+ ---------------
+ <br>
+ {% endfor %}
+ </span>
+
+ </div>
+
+</body>
+{% endblock %}

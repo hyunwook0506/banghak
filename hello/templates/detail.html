@@ -1,0 +1,15 @@
+
+{% extends 'base.html' %}
+ {% block content %}
+
+
+ {{ postnumb.title }}
+
+ {{ postnumb.pubdate }}
+
+
+ {{ postnumb.body }}
+
+<input type='hidden' value='{{postnumb.hittingPoint}}'>
+
+{% endblock %}

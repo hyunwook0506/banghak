@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+    {% block content %}
+
+<form action = "{% url 'send' %}" >
+
+    제목 : <input type='title' cols = "100", row ="100" name='titletitle' >
+    내용 : <textarea cols = "50" row = "100" name= 'body'> </textarea>
+
+    <input type="submit" value= "제출하기">
+
+</form>
+
+    {% endblock %}

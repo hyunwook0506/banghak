@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+
+<style>
+  .card1{
+    border-block-color: white;
+    border-style: outset;
+    position: absolute;
+    left: 10%; top: 40%;
+  }
+  .card2{
+    border-block-color: white;
+    border-style: outset;
+    position: relative;
+    left: 35%; top: 37.5%;
+  }
+  .card3{    border-block-color: white;
+    border-style: outset;
+    position: absolute;
+    left: 30%;  top:49.5%
+  }
+ 
+</style>
+
+</head>
+
+<body>
+
+
+<div class="card1" style="width: 18rem; height: 25rem;">
+    <img src="http://image.chosun.com/sitedata/image/201904/25/2019042502194_0.jpg" class="card-img-top" alt="jiri_mountain">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Jirisan National Park is without a 
+      doubt the largest and most bio-diverse mountainous national Park
+       in South Korea</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+  <div class="card2" style="width: 18rem; height: 25rem">
+    <img src="https://i.ytimg.com/vi/-V3fGdQYvo0/maxresdefault.jpg" class="card-img-top" alt="hanra_mountain">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+  <div class="card3" style="width: 18rem; height:25rem">
+    <img src="https://scontent-lhr3-1.cdninstagram.com/vp/08b29396306fb3de15e012e0f0180265/5D9AB610/t51.2885-15/e35/60215834_433216624169884_5571873210419363879_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&se=7&ig_cache_key=MjA1MTg4NjE5NDAxMDM0NzYyNQ%3D%3D.2" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+</body>
+
+{% endblock %}
